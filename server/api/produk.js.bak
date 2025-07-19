@@ -1,0 +1,7 @@
+export default function defineEventHandler(event) {
+    return {
+        id: 1,
+        nama: 'Produk A',
+        harga: 100000
+    }
+}
