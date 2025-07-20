@@ -1,5 +1,5 @@
 export default defineNuxtRouteMiddleware((to, from) => {
-    const loggedIn = false;
+    const loggedIn = true;
 
     const protectedPages = ['/tentang', '/profile'];
 

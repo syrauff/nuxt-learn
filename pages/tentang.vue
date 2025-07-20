@@ -2,7 +2,7 @@
 definePageMeta({
   middleware: 'auth' // Nama layout sesuai nama file (tanpa .vue)
 })
-// const { data, pending, error } = await useFetch('/api/produk');
+const { data, pending, error } = await useFetch('/api/produk');
 </script>
 
 <template>
@@ -12,7 +12,7 @@ definePageMeta({
     Klik Saya
   </TombolValidasi>
 
-  <div v-if="pendig">
+  <div v-if="pending">
     Memuat data ...
   </div>
 

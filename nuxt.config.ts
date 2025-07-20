@@ -3,6 +3,7 @@ export default defineNuxtConfig({
   compatibilityDate: '2025-05-15',
   devtools: { enabled: true },
   modules: [
+    // '@nuxt/bundle-analysis',
     '@nuxt/content',
     '@pinia/nuxt',  
   ],

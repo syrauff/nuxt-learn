@@ -11,15 +11,16 @@ const cart = useCartStore();
     <header class="app-header">
       <nav>
         <NuxtLink to="/">Beranda</NuxtLink>
+        <NuxtLink to="/quotes">Quotes</NuxtLink>
         <NuxtLink to="/produk">Produk</NuxtLink>
         <NuxtLink to="/tentang">Tentang</NuxtLink>
         <NuxtLink to="/profile">Profile</NuxtLink>
 
         <!-- <span class="keranjang-info"> 🛒 Keranjang: {{ keranjang }} item </span> -->
-        <NuxtLink to="/keranjang" >
+        <!-- <NuxtLink to="/keranjang" >
           🛒 Keranjang: {{ cart.itemCount }} item (Total: Rp
           {{ cart.totalPrice.toLocaleString("id-ID") }})
-        </NuxtLink>
+        </NuxtLink> -->
       </nav>
     </header>
 
@@ -34,6 +35,8 @@ const cart = useCartStore();
 </template>
 
 <style scoped>
+
+
 .app-container {
   display: flex;
   flex-direction: column;

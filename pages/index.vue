@@ -11,10 +11,10 @@ function kosongkanKeranjang() {
 </script>
 
 <template>
-  <h1>Ini Halaman Utama (Homepage)</h1>
-  <p>Halaman ini muncul karena ini adalah `index.vue`.</p>
-    <img src="/images/zee.png" alt="Azizi Asadel" width="200">
-  <div v-if="pendig">
+  <h1>Quotes Anime test</h1>
+  <p>Hello world!</p>
+    <!-- <img src="/images/zee.png" alt="Azizi Asadel" width="200"> -->
+  <div v-if="pending">
     Memuat data ...
   </div>
 
